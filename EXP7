@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            margin: 0;
+        }
+
+        header {
+            background: navy;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            gap: 15px;
+            padding: 20px;
+        }
+
+        .box {
+            background: lightblue;
+            padding: 30px;
+            flex: 1;
+            text-align: center;
+        }
+
+        /* Tablet and mobile screens */
+        @media screen and (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+
+            header {
+                background: green;
+            }
+        }
+
+        /* Small mobile screens */
+        @media screen and (max-width: 480px) {
+            header {
+                font-size: 14px;
+            }
+
+            .box {
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Responsive Website</h1>
+    </header>
+
+    <div class="container">
+        <div class="box">Box 1</div>
+        <div class="box">Box 2</div>
+        <div class="box">Box 3</div>
+    </div>
+
+</body>
+</html>
