@@ -1,0 +1,79 @@
+
+let name = "Rahul";
+const age = 20;
+var city = "Mumbai";
+
+document.write("Name: " + name + "<br>");
+document.write("Age: " + age + "<br>");
+document.write("City: " + city);
+
+
+let name = "Rahul";       // String
+let age = 20;             // Number
+let price = 99.50;        // Number
+let isStudent = true;     // Boolean
+let result;               // Undefined
+let value = null;         // Null
+
+let fruits = ["Apple", "Mango"]; // Array
+
+let student = {
+    name: "Rahul",
+    age: 20
+};                        // Object
+
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof isStudent);
+console.log(fruits);
+console.log(student);
+
+
+
+let a = 20;
+let b = 10;
+
+// Arithmetic operators
+document.write("Addition: " + (a + b) + "<br>");
+document.write("Subtraction: " + (a - b) + "<br>");
+document.write("Multiplication: " + (a * b) + "<br>");
+document.write("Division: " + (a / b) + "<br>");
+document.write("Modulus: " + (a % b) + "<br>");
+
+// Comparison operators
+document.write(a > b);
+document.write("<br>" + (a == b));
+
+// Logical operators
+document.write("<br>" + (a > 5 && b < 20));
+document.write("<br>" + (a > 30 || b < 20));
+
+// Assignment operator
+a += 5;
+document.write("<br>New value of a: " + a);
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JavaScript Addition</title>
+</head>
+<body>
+
+    <h2>Addition of Two Numbers</h2>
+
+    <script>
+        let num1 = 25;
+        let num2 = 15;
+
+        let sum = num1 + num2;
+
+        document.write("First Number: " + num1 + "<br>");
+        document.write("Second Number: " + num2 + "<br>");
+        document.write("Sum: " + sum);
+    </script>
+
+</body>
+</html>
+
