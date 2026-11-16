@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>CSS Selectors</title>
+
+    <style>
+        /* Element selector */
+        h1 {
+            color: blue;
+        }
+
+        /* Class selector */
+        .box {
+            background-color: lightyellow;
+            padding: 20px;
+        }
+
+        /* ID selector */
+        #heading {
+            color: red;
+        }
+
+        /* Pseudo-class selector */
+        button:hover {
+            background-color: green;
+            color: white;
+        }
+
+        /* Focus pseudo-class */
+        input:focus {
+            border: 2px solid blue;
+            outline: none;
+        }
+
+        /* First-child pseudo-class */
+        li:first-child {
+            color: purple;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1 id="heading">CSS Selectors</h1>
+
+    <div class="box">
+        <p>This is a class selector example.</p>
+    </div>
+
+    <input type="text" placeholder="Enter your name">
+    <br><br>
+
+    <button>Hover Over Me</button>
+
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+
+</body>
+</html>
+
